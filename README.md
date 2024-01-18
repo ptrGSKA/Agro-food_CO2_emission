@@ -10,10 +10,7 @@ Indeed, the emissions from the agri-food sector are significant when studying cl
 For a better understanding of the dataset, I have written a notebook where I perform an analysis of the relationship between emissions, climate change and geografic Area.
 Additionally, I provide an example of regression to predict the percentage variations in temperatures.
 
-<p></p>
-<p align="center">
-<img src= "Emissions-by-sector-pie-charts.png" width=600>
-</p>
+![](images/Emissions-by-sector-pie-charts.png)
 
 Source: Climate Watch, the World Resources Institute via OurWorldinData.org. Licensed under Creative Commons by author Hannah Richie (2020)
 
@@ -28,10 +25,25 @@ Despite the pre-cleaning of the data, numerous missing values still exist. These
 - Given the self-explanatory nature of the data, extensive exploratory data analysis (EDA) is not required, as the visualization will effectively convey the information.
 - Next the handling of the missing values to the fullest extent possible.
 - During the feature engineering phase, two additional features are incorporated, specifically the continent and world region in which the country is situated. These newly introduced features will prove beneficial in the subsequent analysis and visualization processes.
+
+![](images/feature_eng.png)
+
 - Moving forward, the data visualization stage where the dataset undergoes visualization, enabling the exploration of several significant aspects of the data.
+
+![](images/avg_co2.png)
+
+![](images/temp_rise_by_cont.png)
+
+![](images/emission_10-20.png)
+
 Followed by regional emissions and emissions by capita
+
+![](images/europa.png)
+
 - Following the examination of potential correlations between regions, proceeded to carry out a series of statistical tests to determine the significance of these relationships.
 - The final stage involves the creation of an ARIMA model, which is utilized to generate short-term predictions for Europe and Asia regions.
+
+![](images/forecast.png)
 
 ## Objectives
 
